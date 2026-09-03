@@ -1,0 +1,10 @@
+name: Skill improvement
+description: Suggest an improvement to hubs, playbooks, or routing
+title: "[Skill]: "
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+    validations:
+      required: true

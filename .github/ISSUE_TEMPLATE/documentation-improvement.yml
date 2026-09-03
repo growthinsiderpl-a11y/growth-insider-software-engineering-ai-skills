@@ -1,0 +1,10 @@
+name: Documentation improvement
+description: Suggest a documentation fix or clarification
+title: "[Docs]: "
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+    validations:
+      required: true

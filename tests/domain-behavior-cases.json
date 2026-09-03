@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0.0",
+  "cases": [
+    {
+      "id": "D01_ARCHITECTURE",
+      "request": "Our checkout logic lives in controllers, ORM callbacks, and queue workers. What is the smallest architecture correction?",
+      "expected_behavior": [
+        "identify the boundary and dependency problem",
+        "prefer a minimum-sufficient structural fix"
+      ]
+    },
+    {
+      "id": "D02_REFACTORING",
+      "request": "This billing module works, but every change touches six files and hidden helper state.",
+      "expected_behavior": [
+        "translate vague quality pain into maintainability findings",
+        "propose a phased refactor plan rather than a rewrite"
+      ]
+    },
+    {
+      "id": "D03_TESTING",
+      "request": "We are extracting business rules from request handlers and need confidence without exploding CI time.",
+      "expected_behavior": [
+        "choose test layers by risk",
+        "state residual uncertainty honestly"
+      ]
+    },
+    {
+      "id": "D04_FRONTEND",
+      "request": "Review this component set for state ownership, token reuse, and missing interaction states.",
+      "expected_behavior": [
+        "stay in frontend implementation quality",
+        "cover maintainability and accessibility implications"
+      ]
+    },
+    {
+      "id": "D05_SEO",
+      "request": "Validate these HTML files offline and tell me what remains unknown without live crawl tools.",
+      "expected_behavior": [
+        "keep scope offline",
+        "differentiate artifact findings from live-search unknowns"
+      ]
+    }
+  ]
+}

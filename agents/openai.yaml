@@ -1,0 +1,6 @@
+interface:
+  display_name: "Growth Insider Software Engineering AI Skills"
+  short_description: "Constraint-first engineering operating skill"
+  default_prompt: "Diagnose the real software constraint, label evidence carefully, choose the minimum sufficient engineering move, and preserve implementation, measurement, and review gates."
+policy:
+  allow_implicit_invocation: true

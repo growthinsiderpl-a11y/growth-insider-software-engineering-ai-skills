@@ -1,0 +1,10 @@
+name: Compatibility report
+description: Report runtime compatibility results
+title: "[Compatibility]: "
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Runtime and findings
+    validations:
+      required: true

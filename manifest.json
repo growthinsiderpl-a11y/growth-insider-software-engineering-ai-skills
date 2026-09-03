@@ -1,0 +1,252 @@
+{
+  "schema_version": "1.0.0",
+  "package": {
+    "id": "growth-insider-software-engineering-ai-skills",
+    "title": "Growth Insider Software Engineering AI Skills",
+    "version": "1.0.0-rc.1",
+    "root": "SKILL.md",
+    "author": "Growth Insider",
+    "maintainer": "Growth Insider",
+    "publisher": "Growth Insider",
+    "organization": "Growth Insider",
+    "website": "https://growthinsider.pl/en/",
+    "contact": "support@growthinsider.pl",
+    "location": "Wrocław, Poland",
+    "license": "MIT",
+    "status": "release-candidate",
+    "architecture": "COMPACT_SKILL_HUBS_PLAYBOOKS_TOOLS"
+  },
+  "hubs": [
+    {
+      "id": "software-architecture-and-system-design",
+      "title": "Software Architecture and System Design",
+      "path": "references/hubs/software-architecture-and-system-design.md"
+    },
+    {
+      "id": "application-implementation-and-repository-delivery",
+      "title": "Application Implementation and Repository Delivery",
+      "path": "references/hubs/application-implementation-and-repository-delivery.md"
+    },
+    {
+      "id": "code-quality-refactoring-and-maintainability",
+      "title": "Code Quality, Refactoring, and Maintainability",
+      "path": "references/hubs/code-quality-refactoring-and-maintainability.md"
+    },
+    {
+      "id": "testing-validation-and-quality-engineering",
+      "title": "Testing, Validation, and Quality Engineering",
+      "path": "references/hubs/testing-validation-and-quality-engineering.md"
+    },
+    {
+      "id": "release-reliability-and-production-readiness",
+      "title": "Release, Reliability, and Production Readiness",
+      "path": "references/hubs/release-reliability-and-production-readiness.md"
+    },
+    {
+      "id": "frontend-ui-and-design-system-implementation",
+      "title": "Frontend UI and Design System Implementation",
+      "path": "references/hubs/frontend-ui-and-design-system-implementation.md"
+    },
+    {
+      "id": "accessibility-performance-and-web-quality",
+      "title": "Accessibility, Performance, and Web Quality",
+      "path": "references/hubs/accessibility-performance-and-web-quality.md"
+    },
+    {
+      "id": "technical-seo-and-site-architecture",
+      "title": "Technical SEO and Site Architecture",
+      "path": "references/hubs/technical-seo-and-site-architecture.md"
+    },
+    {
+      "id": "technical-requirements-and-codebase-analysis",
+      "title": "Technical Requirements and Codebase Analysis",
+      "path": "references/hubs/technical-requirements-and-codebase-analysis.md"
+    },
+    {
+      "id": "developer-workflow-and-delivery-operations",
+      "title": "Developer Workflow and Delivery Operations",
+      "path": "references/hubs/developer-workflow-and-delivery-operations.md"
+    }
+  ],
+  "playbooks": [
+    {
+      "id": "architecture-boundary-assessment",
+      "title": "Architecture Boundary Assessment",
+      "path": "references/playbooks/architecture-boundary-assessment.md"
+    },
+    {
+      "id": "dependency-direction-review",
+      "title": "Dependency Direction Review",
+      "path": "references/playbooks/dependency-direction-review.md"
+    },
+    {
+      "id": "system-design-decision-process",
+      "title": "System Design Decision Process",
+      "path": "references/playbooks/system-design-decision-process.md"
+    },
+    {
+      "id": "repository-scaffolding-workflow",
+      "title": "Repository Scaffolding Workflow",
+      "path": "references/playbooks/repository-scaffolding-workflow.md"
+    },
+    {
+      "id": "code-maintainability-review",
+      "title": "Code Maintainability Review",
+      "path": "references/playbooks/code-maintainability-review.md"
+    },
+    {
+      "id": "refactor-plan",
+      "title": "Refactor Plan",
+      "path": "references/playbooks/refactor-plan.md"
+    },
+    {
+      "id": "test-strategy-design",
+      "title": "Test Strategy Design",
+      "path": "references/playbooks/test-strategy-design.md"
+    },
+    {
+      "id": "production-readiness-gate",
+      "title": "Production Readiness Gate",
+      "path": "references/playbooks/production-readiness-gate.md"
+    },
+    {
+      "id": "release-validation",
+      "title": "Release Validation",
+      "path": "references/playbooks/release-validation.md"
+    },
+    {
+      "id": "observability-baseline",
+      "title": "Observability Baseline",
+      "path": "references/playbooks/observability-baseline.md"
+    },
+    {
+      "id": "ui-implementation-quality",
+      "title": "UI Implementation Quality",
+      "path": "references/playbooks/ui-implementation-quality.md"
+    },
+    {
+      "id": "accessibility-implementation-checklist",
+      "title": "Accessibility Implementation Checklist",
+      "path": "references/playbooks/accessibility-implementation-checklist.md"
+    },
+    {
+      "id": "performance-remediation-plan",
+      "title": "Performance Remediation Plan",
+      "path": "references/playbooks/performance-remediation-plan.md"
+    },
+    {
+      "id": "technical-seo-engineering",
+      "title": "Technical SEO Engineering",
+      "path": "references/playbooks/technical-seo-engineering.md"
+    },
+    {
+      "id": "secure-coding-review",
+      "title": "Secure Coding Review",
+      "path": "references/playbooks/secure-coding-review.md"
+    },
+    {
+      "id": "api-service-design",
+      "title": "API and Service Design",
+      "path": "references/playbooks/api-service-design.md"
+    },
+    {
+      "id": "ci-delivery-workflow",
+      "title": "CI Delivery Workflow",
+      "path": "references/playbooks/ci-delivery-workflow.md"
+    }
+  ],
+  "tools": [
+    {
+      "id": "inventory-codebase",
+      "path": "scripts/architecture/inventory_codebase.py",
+      "domain": "architecture",
+      "description": "Inventory a supplied codebase snapshot or local root into counts, extensions, and directory coverage."
+    },
+    {
+      "id": "validate-dependency-direction",
+      "path": "scripts/architecture/validate_dependency_direction.py",
+      "domain": "architecture",
+      "description": "Validate dependency edges against an explicit allowed layer graph."
+    },
+    {
+      "id": "find-maintainability-violations",
+      "path": "scripts/quality/find_maintainability_violations.py",
+      "domain": "quality",
+      "description": "Report observable maintainability findings such as oversized files, long lines, TODO markers, and debugger leftovers."
+    },
+    {
+      "id": "generate-design-tokens",
+      "path": "scripts/quality/generate_design_tokens.py",
+      "domain": "quality",
+      "description": "Generate deterministic design token structures and CSS custom properties from a supplied token set."
+    },
+    {
+      "id": "validate-release-readiness",
+      "path": "scripts/release/validate_release_readiness.py",
+      "domain": "release",
+      "description": "Validate explicit release evidence for tests, rollout, rollback, ownership, and observability."
+    },
+    {
+      "id": "check-technical-seo-artifacts",
+      "path": "scripts/seo/check_technical_seo_artifacts.py",
+      "domain": "seo",
+      "description": "Check supplied HTML for technical SEO artifacts such as metadata, headings, links, and structured data offline."
+    }
+  ],
+  "maintenance_tools": [
+    {
+      "id": "validate-repository",
+      "path": "scripts/validate_repository.py"
+    },
+    {
+      "id": "validate-behavioral-evals",
+      "path": "scripts/validate_behavioral_evals.py"
+    }
+  ],
+  "adapters": [
+    {
+      "id": "agent-skills-compatible",
+      "path": "adapters/agent-skills-compatible.md"
+    },
+    {
+      "id": "anthropic-claude",
+      "path": "adapters/anthropic-claude.md"
+    },
+    {
+      "id": "openai-chatgpt",
+      "path": "adapters/openai-chatgpt.md"
+    },
+    {
+      "id": "openai-codex",
+      "path": "adapters/openai-codex.md"
+    }
+  ],
+  "docs": [
+    "docs/baseline-inventory.md",
+    "docs/baseline-path-fingerprint.txt",
+    "docs/capability-parity-matrix.csv",
+    "docs/capability-parity-matrix.md",
+    "docs/comparative-restoration-report.md",
+    "docs/cross-skill-routing-boundaries.md",
+    "docs/github-release-and-discoverability.md",
+    "docs/platform-compatibility.md",
+    "docs/public-release-checklist.md",
+    "docs/repository-semantic-audit.md",
+    "docs/social-preview-brief.md"
+  ],
+  "examples": [
+    "examples/assess-architecture-boundaries.md",
+    "examples/plan-repository-scaffold.md",
+    "examples/design-test-strategy.md",
+    "examples/run-production-readiness-gate.md",
+    "examples/review-ui-implementation.md",
+    "examples/remediate-technical-seo.md"
+  ],
+  "tests": [
+    "tests/routing-safety-cases.json",
+    "tests/domain-behavior-cases.json",
+    "tests/business-tool-cases.json",
+    "tests/test_repository_contract.py",
+    "tests/test_tools.py"
+  ]
+}

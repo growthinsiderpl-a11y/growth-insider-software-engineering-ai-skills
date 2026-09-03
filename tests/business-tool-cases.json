@@ -1,0 +1,150 @@
+{
+  "cases": [
+    {
+      "tool_id": "inventory_codebase",
+      "path": "scripts/architecture/inventory_codebase.py",
+      "input": {
+        "entries": [
+          {
+            "path": "src/app.ts",
+            "kind": "file",
+            "bytes": 1200,
+            "lines": 40
+          },
+          {
+            "path": "src/routes/api.ts",
+            "kind": "file",
+            "bytes": 800,
+            "lines": 28
+          },
+          {
+            "path": "tests/app.test.ts",
+            "kind": "file",
+            "bytes": 600,
+            "lines": 20
+          }
+        ]
+      }
+    },
+    {
+      "tool_id": "validate_dependency_direction",
+      "path": "scripts/architecture/validate_dependency_direction.py",
+      "input": {
+        "layers": [
+          {
+            "name": "domain",
+            "allowed_to_depend_on": [
+              "domain"
+            ]
+          },
+          {
+            "name": "application",
+            "allowed_to_depend_on": [
+              "application",
+              "domain"
+            ]
+          },
+          {
+            "name": "infrastructure",
+            "allowed_to_depend_on": [
+              "infrastructure",
+              "application",
+              "domain"
+            ]
+          }
+        ],
+        "components": [
+          {
+            "id": "price_rules",
+            "layer": "domain"
+          },
+          {
+            "id": "checkout_service",
+            "layer": "application"
+          },
+          {
+            "id": "stripe_gateway",
+            "layer": "infrastructure"
+          }
+        ],
+        "dependencies": [
+          {
+            "source": "checkout_service",
+            "target": "price_rules"
+          },
+          {
+            "source": "price_rules",
+            "target": "stripe_gateway"
+          }
+        ]
+      }
+    },
+    {
+      "tool_id": "find_maintainability_violations",
+      "path": "scripts/quality/find_maintainability_violations.py",
+      "input": {
+        "files": [
+          {
+            "path": "src/legacy.py",
+            "content": "def run():\\n    print('debug')\\n    pass\\n# TODO remove\\n",
+            "max_recommended_lines": 3,
+            "max_recommended_line_length": 40
+          }
+        ]
+      }
+    },
+    {
+      "tool_id": "generate_design_tokens",
+      "path": "scripts/quality/generate_design_tokens.py",
+      "input": {
+        "theme_name": "default",
+        "colors": {
+          "primary": "#175CD3",
+          "surface": "#FFFFFF"
+        },
+        "spacing": {
+          "sm": "8px",
+          "md": "16px"
+        },
+        "font_sizes": {
+          "body": "16px",
+          "title": "32px"
+        },
+        "radii": {
+          "sm": "4px",
+          "lg": "12px"
+        },
+        "shadows": {
+          "card": "0 4px 12px rgba(0,0,0,0.12)"
+        }
+      }
+    },
+    {
+      "tool_id": "validate_release_readiness",
+      "path": "scripts/release/validate_release_readiness.py",
+      "input": {
+        "release": {
+          "change_name": "checkout-migration",
+          "tests_passed": true,
+          "rollback_ready": true,
+          "owner": "release engineer",
+          "observability_ready": true,
+          "smoke_checks_defined": true,
+          "known_risks": [
+            "one-way schema migration after final switch"
+          ],
+          "migration_plan": "Expand and verify before cutover.",
+          "feature_flag": true,
+          "review_window_hours": 24
+        }
+      }
+    },
+    {
+      "tool_id": "check_technical_seo_artifacts",
+      "path": "scripts/seo/check_technical_seo_artifacts.py",
+      "input": {
+        "html": "<html lang='en'><head><title>Platform API docs</title><meta name='description' content='Stable API docs'><meta name='viewport' content='width=device-width, initial-scale=1'><link rel='canonical' href='https://example.com/docs'></head><body><h1>API docs</h1><h2>Authentication</h2><img src='hero.png' alt='Documentation screenshot'><a href='/pricing'>Pricing</a><script type='application/ld+json'>{}</script><p>Fast reference for engineers.</p></body></html>"
+      }
+    }
+  ]
+}

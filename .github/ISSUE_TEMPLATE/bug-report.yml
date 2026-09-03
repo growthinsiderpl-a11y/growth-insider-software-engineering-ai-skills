@@ -1,0 +1,10 @@
+name: Bug report
+description: Report a repository bug
+title: "[Bug]: "
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+    validations:
+      required: true

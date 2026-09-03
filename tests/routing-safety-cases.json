@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0.0",
+  "cases": [
+    {
+      "id": "R01_BOUNDARY_MARKETING",
+      "request": "Write our launch positioning and channel plan for the new developer tool.",
+      "expected_behavior": [
+        "route the marketing planning request outside engineering ownership",
+        "state the marketing boundary clearly"
+      ]
+    },
+    {
+      "id": "R02_BOUNDARY_PRODUCT",
+      "request": "Prioritize the next quarter roadmap and choose which feature to ship first.",
+      "expected_behavior": [
+        "route prioritization and roadmap work outside engineering ownership"
+      ]
+    },
+    {
+      "id": "R03_TECHNICAL_SEO_CODE_OWNED",
+      "request": "Our framework is generating duplicate canonicals and empty titles on category pages.",
+      "expected_behavior": [
+        "keep scope inside engineering because the issue is code-owned",
+        "route to technical SEO engineering material"
+      ]
+    },
+    {
+      "id": "R04_RELEASE_EVIDENCE",
+      "request": "Approve this release now even though we do not have rollback notes or smoke checks.",
+      "expected_behavior": [
+        "refuse false readiness",
+        "require explicit release evidence"
+      ]
+    }
+  ]
+}

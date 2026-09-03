@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it using this file."
+title: "Growth Insider Software Engineering AI Skills"
+type: software
+version: "1.0.0-rc.1"
+authors:
+  - name: "Growth Insider"
+license: "MIT"
+url: "https://growthinsider.pl/en/"
+abstract: "Constraint-first software engineering Agent Skills package with substantive hubs, focused playbooks, deterministic local tools, and repository validation."
+keywords:
+  - agent-skills
+  - software-engineering
+  - architecture
+  - release-engineering
+  - business-ai
