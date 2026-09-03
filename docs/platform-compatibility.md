@@ -35,6 +35,7 @@ Verification date: `2026-09-03`
 | CI dependency file | `requirements-ci.txt` |
 | CI dependency pin | `pytest==9.1.1` |
 | Workflow permissions | `contents: read` |
-| CFF `repository-code` | omitted until a real GitHub repository URL exists |
+| CFF `repository-code` | https://github.com/growthinsiderpl-a11y/growth-insider-software-engineering-ai-skills |
+| CFF `date-released` | 2026-09-03 |
 | CFF author form | entity `name: Growth Insider` |
-| Social preview | `assets/github-social-preview.jpg` (1280×640) |
+| Social preview | `assets/github-social-preview.jpg` (1280Ă—640) |

@@ -1,5 +1,10 @@
 # GitHub Release and Discoverability
 
+## Canonical repository
+- URL: https://github.com/growthinsiderpl-a11y/growth-insider-software-engineering-ai-skills
+- Website: https://growthinsider.pl/en/
+
+
 ## Public release guidance
 
 - use the repository root identity consistently in release titles and tags

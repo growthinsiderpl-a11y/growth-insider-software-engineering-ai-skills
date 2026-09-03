@@ -7,6 +7,8 @@ authors:
   - name: "Growth Insider"
 license: "MIT"
 url: "https://growthinsider.pl/en/"
+repository-code: "https://github.com/growthinsiderpl-a11y/growth-insider-software-engineering-ai-skills"
+date-released: "2026-09-03"
 abstract: "Constraint-first software engineering Agent Skills package with substantive hubs, focused playbooks, deterministic local tools, and repository validation."
 keywords:
   - agent-skills

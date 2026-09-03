@@ -38,6 +38,12 @@ The package does not begin with role-play. It begins with the code problem, the 
 
 ## Quick Start
 
+Clone or download the release candidate:
+
+```bash
+git clone https://github.com/growthinsiderpl-a11y/growth-insider-software-engineering-ai-skills.git
+``` 
+
 1. Place the `growth-insider-software-engineering-ai-skills` folder in an Agent Skills compatible location.
 2. Keep the folder name unchanged.
 3. Start with a concrete engineering problem and any known constraints or repository context.
@@ -71,17 +77,17 @@ The package is organized around engineering problems, not job-title simulation.
 
 ```text
 growth-insider-software-engineering-ai-skills/
-├── SKILL.md
-├── manifest.json
-├── references/
-│   ├── hubs/
-│   └── playbooks/
-├── scripts/
-├── adapters/
-├── examples/
-├── docs/
-├── tests/
-└── .github/
+â”śâ”€â”€ SKILL.md
+â”śâ”€â”€ manifest.json
+â”śâ”€â”€ references/
+â”‚   â”śâ”€â”€ hubs/
+â”‚   â””â”€â”€ playbooks/
+â”śâ”€â”€ scripts/
+â”śâ”€â”€ adapters/
+â”śâ”€â”€ examples/
+â”śâ”€â”€ docs/
+â”śâ”€â”€ tests/
+â””â”€â”€ .github/
 ```
 
 ## Platform Compatibility
@@ -99,7 +105,7 @@ See [docs/platform-compatibility.md](docs/platform-compatibility.md).
 
 ## Personalized AI Skills for Your Business
 
-The public package is a reusable engineering operating system. Personalized AI Skills go further by encoding a company’s actual repositories, service inventory, coding standards, dependency rules, release gates, support model, and approved delivery workflows.
+The public package is a reusable engineering operating system. Personalized AI Skills go further by encoding a companyâ€™s actual repositories, service inventory, coding standards, dependency rules, release gates, support model, and approved delivery workflows.
 
 Growth Insider can adapt this pattern to a specific software environment, including:
 
@@ -115,7 +121,7 @@ That is custom operating logic, not a generic prompt bundle.
 
 [Growth Insider](https://growthinsider.pl/en/) works across software and growth with a constraint-first approach. The aim is not to maximize complexity; it is to reach the minimum sufficient solution that matches the real constraint, can be implemented, can be measured, and can be reviewed.
 
-Growth Insider is based in Wrocław, Poland. Contact: [support@growthinsider.pl](mailto:support@growthinsider.pl).
+Growth Insider is based in WrocĹ‚aw, Poland. Contact: [support@growthinsider.pl](mailto:support@growthinsider.pl).
 
 ## Security and Privacy
 
