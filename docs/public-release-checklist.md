@@ -1,9 +1,9 @@
 # Public Release Checklist
 
-Status vocabulary: `PASS` Â· `FAIL` Â· `NOT VERIFIED` Â· `NOT APPLICABLE` Â· `BLOCKED`
+Status vocabulary: `PASS` · `FAIL` · `NOT VERIFIED` · `NOT APPLICABLE` · `BLOCKED`
 
 Verification date: 2026-09-03  
-Package status: `RELEASE_CANDIDATE` Â· `STATICALLY_VERIFIED` Â· `LOCALLY_TESTED` Â· `NOT MODEL TESTED` Â· `GIT_PUBLISHED_RC`
+Package status: `RELEASE_CANDIDATE` · `STATICALLY_VERIFIED` · `LOCALLY_TESTED` · `NOT MODEL TESTED` · `GIT_PUBLISHED_RC`
 
 ## Local package validation
 
